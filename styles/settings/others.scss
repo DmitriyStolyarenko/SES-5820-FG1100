@@ -1,0 +1,54 @@
+.flex{
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+}
+.color-background-second{
+	background-color: #F8F1EE;
+}
+.color-background-grad{
+		background: linear-gradient(180deg, #F8F1EE 0%, #FFFFFF 100%);
+}
+.l-main-title>span{
+	font-weight: bold;
+}
+.bold-p{
+	color: #FF798E;
+	font-weight: normal;
+	padding-top: 50px;
+	padding-left: 8%;
+	@include tablets {
+		padding-left: 0px;
+	}
+
+	@include phones {
+		padding-left: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.pad-c{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 4%;
+	padding-left: 4%;
+	@include tablets {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	@include phones {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+}
+.title-color-pink{
+	color: #E76171 !important;
+}
+.paragraph-color-gray{
+	color: #777778 !important;
+}
+.l-half-right {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
